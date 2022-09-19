@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3e0d29c7-5f45-4a0a-8907-5c3fa3e7ccbc" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/javaHomeworkNew.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java.lessons/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java.lessons/src/main/java/org/andresen/lab/lesson1/HomeWorkApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java.lessons/src/main/java/org/andresen/lab/lesson2/Task1SumBetween.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java.lessons/src/main/java/org/andresen/lab/lesson2/Task2NumberPositiveOrNegative.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java.lessons/src/main/java/org/andresen/lab/lesson2/Task3NumberPositiveOrNegativeBoolean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java.lessons/src/main/java/org/andresen/lab/lesson2/Task4LineMultiplyNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java.lessons/src/main/java/org/andresen/lab/lesson2/Task4StarLeapYear.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java.lessons/src/main/java/org/andresen/lab/lesson2/Task5To8ArraysManipulations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java.lessons/src/main/java/org/andresen/lab/lesson2/Task9LengthAndValue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java.lessons/src/main/java/org/andresen/lab/lesson2/Task9StarArrayDisplacement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java.lessons/src/test/java/org/andresen/lab/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java.lessons/target/classes/org/andresen/lab/lesson1/HomeWorkApp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java.lessons/target/classes/org/andresen/lab/lesson2/Task1SumBetween.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java.lessons/target/classes/org/andresen/lab/lesson2/Task2NumberPositiveOrNegative.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java.lessons/target/classes/org/andresen/lab/lesson2/Task3NumberPositiveOrNegativeBoolean.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java.lessons/target/classes/org/andresen/lab/lesson2/Task4LineMultiplyNumber.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java.lessons/target/classes/org/andresen/lab/lesson2/Task4StarLeapYear.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java.lessons/target/classes/org/andresen/lab/lesson2/Task5To8ArraysManipulations.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java.lessons/target/classes/org/andresen/lab/lesson2/Task9LengthAndValue.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java.lessons/target/classes/org/andresen/lab/lesson2/Task9StarArrayDisplacement.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2EyxWp8JCcx2R80jsEwU2FR7jYT" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "com.intellij.openapi.externalSystem.service.settings.ExternalSystemGroupConfigurable": "ALL",
+    "jdk.selected.JAVA_MODULE": "17",
+    "last_opened_file_path": "D:/Andersen AQA/javaHomeworkNew/java.lessons/src/main/java/org/andresen/lab/lesson2",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "build.tools"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Andersen AQA\javaHomeworkNew\java.lessons\src\main\java\org\andresen\lab\lesson2" />
+      <recent name="D:\Andersen AQA\javaHomeworkNew\java.lessons\src\main\java\org\andresen\lab\lesson1" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Andersen AQA\javaHomeworkNew\.idea" />
+      <recent name="D:\Andersen AQA\javaHomeworkNew\java.lessons\src\main\java\org\andresen\lab" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3e0d29c7-5f45-4a0a-8907-5c3fa3e7ccbc" name="Changes" comment="" />
+      <created>1663581659977</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1663581659977</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
