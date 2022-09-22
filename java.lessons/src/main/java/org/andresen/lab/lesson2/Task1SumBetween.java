@@ -11,6 +11,7 @@ public class Task1SumBetween {
         System.out.println("Enter the second number");
         int b = console.nextInt();
         System.out.println(checkIfSumBetween(a, b));
+
     }
 
     public static boolean checkIfSumBetween(int a, int b) {
