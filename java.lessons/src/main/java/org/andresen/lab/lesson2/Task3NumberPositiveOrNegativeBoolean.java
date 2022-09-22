@@ -11,6 +11,6 @@ public class Task3NumberPositiveOrNegativeBoolean {
     }
 
     public static boolean checkPositiveOrNegativeBooleanVer(int num) {
-        return (num >= 0);
+        return (num < 0);
     }
 }

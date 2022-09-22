@@ -25,19 +25,19 @@ public class Task9StarArrayDisplacement {
         boolean direction = console.nextBoolean();
         if (direction) {
             for (int i = 1; i <= displace; i++) {
-                int shiftedelement = arr[arr.length - 1];
+                int shiftedElement = arr[arr.length - 1];
                 for (int j = arr.length - 1 - 1; j>= 0; j--) {
                     arr[j + 1] = arr[j];
                 }
-                arr[0] = shiftedelement;
+                arr[0] = shiftedElement;
             }
         } else {
             for (int i = -displace; i <= -1; i++) {
-                int shiftedelement = arr[0];
+                int shiftedElement = arr[0];
                 for (int j = 1; j < arr.length; j++) {
                     arr[j - 1] = arr[j];
                 }
-                arr[arr.length - 1] = shiftedelement;
+                arr[arr.length - 1] = shiftedElement;
             }
         }
         return(arr);
