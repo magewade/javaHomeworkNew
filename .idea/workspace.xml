@@ -5,15 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3e0d29c7-5f45-4a0a-8907-5c3fa3e7ccbc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/java.lessons/src/main/java/org/andresen/lab/lesson3/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java.lessons/src/main/java/org/andresen/lab/lesson3/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java.lessons/src/main/java/org/andresen/lab/lesson4/food/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java.lessons/src/main/java/org/andresen/lab/lesson4/food/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java.lessons/src/main/java/org/andresen/lab/lesson4/food/Plate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java.lessons/src/main/java/org/andresen/lab/lesson4/park/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java.lessons/src/main/java/org/andresen/lab/lesson4/park/Park.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java.lessons/src/main/java/org/andresen/lab/lesson4/payment/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java.lessons/src/main/java/org/andresen/lab/lesson4/payment/Payment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java.lessons/src/main/java/org/andresen/lab/lesson4/race/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java.lessons/src/main/java/org/andresen/lab/lesson4/race/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java.lessons/src/main/java/org/andresen/lab/lesson4/race/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java.lessons/src/main/java/org/andresen/lab/lesson4/race/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java.lessons/src/main/java/org/andresen/lab/lesson2/Task1SumBetween.java" beforeDir="false" afterPath="$PROJECT_DIR$/java.lessons/src/main/java/org/andresen/lab/lesson2/Task1SumBetween.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java.lessons/src/main/java/org/andresen/lab/lesson2/Task3NumberPositiveOrNegativeBoolean.java" beforeDir="false" afterPath="$PROJECT_DIR$/java.lessons/src/main/java/org/andresen/lab/lesson2/Task3NumberPositiveOrNegativeBoolean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java.lessons/src/main/java/org/andresen/lab/lesson2/Task9StarArrayDisplacement.java" beforeDir="false" afterPath="$PROJECT_DIR$/java.lessons/src/main/java/org/andresen/lab/lesson2/Task9StarArrayDisplacement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java.lessons/target/classes/org/andresen/lab/lesson2/Task1SumBetween.class" beforeDir="false" afterPath="$PROJECT_DIR$/java.lessons/target/classes/org/andresen/lab/lesson2/Task1SumBetween.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java.lessons/target/classes/org/andresen/lab/lesson2/Task3NumberPositiveOrNegativeBoolean.class" beforeDir="false" afterPath="$PROJECT_DIR$/java.lessons/target/classes/org/andresen/lab/lesson2/Task3NumberPositiveOrNegativeBoolean.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java.lessons/target/classes/org/andresen/lab/lesson2/Task9StarArrayDisplacement.class" beforeDir="false" afterPath="$PROJECT_DIR$/java.lessons/target/classes/org/andresen/lab/lesson2/Task9StarArrayDisplacement.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java.lessons/src/main/java/org/andresen/lab/lesson3/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/java.lessons/src/main/java/org/andresen/lab/lesson3/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java.lessons/src/main/java/org/andresen/lab/lesson3/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/java.lessons/src/main/java/org/andresen/lab/lesson3/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java.lessons/target/classes/org/andresen/lab/lesson3/Employee.class" beforeDir="false" afterPath="$PROJECT_DIR$/java.lessons/target/classes/org/andresen/lab/lesson3/Employee.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java.lessons/target/classes/org/andresen/lab/lesson3/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/java.lessons/target/classes/org/andresen/lab/lesson3/Main.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,27 +43,32 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2EyxWp8JCcx2R80jsEwU2FR7jYT" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
     <option name="autoscrollToSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;com.intellij.openapi.externalSystem.service.settings.ExternalSystemGroupConfigurable&quot;: &quot;ALL&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Java/JavaRush/JavaRushTasks&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;build.tools&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.intellij.openapi.externalSystem.service.settings.ExternalSystemGroupConfigurable": "ALL",
+    "jdk.selected.JAVA_MODULE": "17",
+    "last_opened_file_path": "D:/Andersen AQA/javaHomeworkNew/java.lessons/src/main/java/org/andresen/lab/lesson4/park",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "build.tools"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Andersen AQA\javaHomeworkNew\java.lessons\src\main\java\org\andresen\lab\lesson4\park" />
       <recent name="D:\Andersen AQA\javaHomeworkNew\java.lessons\src\main\java\org\andresen\lab\lesson2" />
       <recent name="D:\Andersen AQA\javaHomeworkNew\java.lessons\src\main\java\org\andresen\lab\lesson1" />
     </key>
