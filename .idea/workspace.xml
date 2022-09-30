@@ -5,24 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3e0d29c7-5f45-4a0a-8907-5c3fa3e7ccbc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java.lessons/src/main/java/org/andresen/lab/lesson4/food/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java.lessons/src/main/java/org/andresen/lab/lesson4/food/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java.lessons/src/main/java/org/andresen/lab/lesson4/food/Plate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java.lessons/src/main/java/org/andresen/lab/lesson4/park/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java.lessons/src/main/java/org/andresen/lab/lesson4/park/Park.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java.lessons/src/main/java/org/andresen/lab/lesson4/payment/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java.lessons/src/main/java/org/andresen/lab/lesson4/payment/Payment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java.lessons/src/main/java/org/andresen/lab/lesson4/race/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java.lessons/src/main/java/org/andresen/lab/lesson4/race/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java.lessons/src/main/java/org/andresen/lab/lesson4/race/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java.lessons/src/main/java/org/andresen/lab/lesson4/race/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java.lessons/src/main/java/org/andresen/lab/lesson5/Apple.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java.lessons/src/main/java/org/andresen/lab/lesson5/Box.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java.lessons/src/main/java/org/andresen/lab/lesson5/ElementsSwap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java.lessons/src/main/java/org/andresen/lab/lesson5/Fruit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java.lessons/src/main/java/org/andresen/lab/lesson5/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java.lessons/src/main/java/org/andresen/lab/lesson5/Orange.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java.lessons/src/main/java/org/andresen/lab/lesson3/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/java.lessons/src/main/java/org/andresen/lab/lesson3/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java.lessons/src/main/java/org/andresen/lab/lesson3/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/java.lessons/src/main/java/org/andresen/lab/lesson3/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java.lessons/target/classes/org/andresen/lab/lesson3/Employee.class" beforeDir="false" afterPath="$PROJECT_DIR$/java.lessons/target/classes/org/andresen/lab/lesson3/Employee.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java.lessons/target/classes/org/andresen/lab/lesson3/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/java.lessons/target/classes/org/andresen/lab/lesson3/Main.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
