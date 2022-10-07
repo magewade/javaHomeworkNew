@@ -1,4 +1,4 @@
-package lesson6;
+package org.andersen.lab.lesson6;
 
 public class MyArraySizeException extends Exception {
     MyArraySizeException() {

@@ -1,4 +1,4 @@
-package lesson6;
+package org.andersen.lab.lesson6;
 
 public class MyArrayDataException extends Exception {
     MyArrayDataException(int i, int j) {
