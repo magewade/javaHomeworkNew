@@ -5,11 +5,77 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3e0d29c7-5f45-4a0a-8907-5c3fa3e7ccbc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/java.lessons/src/main/java/org/andresen/lab/lesson6/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java.lessons/src/main/java/org/andresen/lab/lesson6/MyArrayDataException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java.lessons/src/main/java/org/andresen/lab/lesson6/MyArrayException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java.lessons/src/main/java/org/andresen/lab/lesson6/MyArraySizeException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java.lessons/src/main/java/org/andersen/lab/lesson7/AppData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java.lessons/src/main/java/org/andersen/lab/lesson7/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java.lessons/src/main/java/org/andersen/lab/lesson7/text.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java.lessons/src/main/java/org/andresen/lab/lesson1/HomeWorkApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/java.lessons/src/main/java/org/andersen/lab/lesson1/HomeWorkApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java.lessons/src/main/java/org/andresen/lab/lesson2/Task1SumBetween.java" beforeDir="false" afterPath="$PROJECT_DIR$/java.lessons/src/main/java/org/andersen/lab/lesson2/Task1SumBetween.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java.lessons/src/main/java/org/andresen/lab/lesson2/Task2NumberPositiveOrNegative.java" beforeDir="false" afterPath="$PROJECT_DIR$/java.lessons/src/main/java/org/andersen/lab/lesson2/Task2NumberPositiveOrNegative.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java.lessons/src/main/java/org/andresen/lab/lesson2/Task3NumberPositiveOrNegativeBoolean.java" beforeDir="false" afterPath="$PROJECT_DIR$/java.lessons/src/main/java/org/andersen/lab/lesson2/Task3NumberPositiveOrNegativeBoolean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java.lessons/src/main/java/org/andresen/lab/lesson2/Task4LineMultiplyNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/java.lessons/src/main/java/org/andersen/lab/lesson2/Task4LineMultiplyNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java.lessons/src/main/java/org/andresen/lab/lesson2/Task4StarLeapYear.java" beforeDir="false" afterPath="$PROJECT_DIR$/java.lessons/src/main/java/org/andersen/lab/lesson2/Task4StarLeapYear.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java.lessons/src/main/java/org/andresen/lab/lesson2/Task5To8ArraysManipulations.java" beforeDir="false" afterPath="$PROJECT_DIR$/java.lessons/src/main/java/org/andersen/lab/lesson2/Task5To8ArraysManipulations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java.lessons/src/main/java/org/andresen/lab/lesson2/Task9LengthAndValue.java" beforeDir="false" afterPath="$PROJECT_DIR$/java.lessons/src/main/java/org/andersen/lab/lesson2/Task9LengthAndValue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java.lessons/src/main/java/org/andresen/lab/lesson2/Task9StarArrayDisplacement.java" beforeDir="false" afterPath="$PROJECT_DIR$/java.lessons/src/main/java/org/andersen/lab/lesson2/Task9StarArrayDisplacement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java.lessons/src/main/java/org/andresen/lab/lesson3/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/java.lessons/src/main/java/org/andersen/lab/lesson3/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java.lessons/src/main/java/org/andresen/lab/lesson3/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/java.lessons/src/main/java/org/andersen/lab/lesson3/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java.lessons/src/main/java/org/andresen/lab/lesson4/food/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/java.lessons/src/main/java/org/andersen/lab/lesson4/food/Cat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java.lessons/src/main/java/org/andresen/lab/lesson4/food/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/java.lessons/src/main/java/org/andersen/lab/lesson4/food/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java.lessons/src/main/java/org/andresen/lab/lesson4/food/Plate.java" beforeDir="false" afterPath="$PROJECT_DIR$/java.lessons/src/main/java/org/andersen/lab/lesson4/food/Plate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java.lessons/src/main/java/org/andresen/lab/lesson4/park/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/java.lessons/src/main/java/org/andersen/lab/lesson4/park/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java.lessons/src/main/java/org/andresen/lab/lesson4/park/Park.java" beforeDir="false" afterPath="$PROJECT_DIR$/java.lessons/src/main/java/org/andersen/lab/lesson4/park/Park.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java.lessons/src/main/java/org/andresen/lab/lesson4/payment/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/java.lessons/src/main/java/org/andersen/lab/lesson4/payment/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java.lessons/src/main/java/org/andresen/lab/lesson4/payment/Payment.java" beforeDir="false" afterPath="$PROJECT_DIR$/java.lessons/src/main/java/org/andersen/lab/lesson4/payment/Payment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java.lessons/src/main/java/org/andresen/lab/lesson4/race/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/java.lessons/src/main/java/org/andersen/lab/lesson4/race/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java.lessons/src/main/java/org/andresen/lab/lesson4/race/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/java.lessons/src/main/java/org/andersen/lab/lesson4/race/Cat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java.lessons/src/main/java/org/andresen/lab/lesson4/race/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/java.lessons/src/main/java/org/andersen/lab/lesson4/race/Dog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java.lessons/src/main/java/org/andresen/lab/lesson4/race/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/java.lessons/src/main/java/org/andersen/lab/lesson4/race/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java.lessons/src/main/java/org/andresen/lab/lesson5/Apple.java" beforeDir="false" afterPath="$PROJECT_DIR$/java.lessons/src/main/java/org/andersen/lab/lesson5/Apple.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java.lessons/src/main/java/org/andresen/lab/lesson5/Box.java" beforeDir="false" afterPath="$PROJECT_DIR$/java.lessons/src/main/java/org/andersen/lab/lesson5/Box.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java.lessons/src/main/java/org/andresen/lab/lesson5/ElementsSwap.java" beforeDir="false" afterPath="$PROJECT_DIR$/java.lessons/src/main/java/org/andersen/lab/lesson5/ElementsSwap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java.lessons/src/main/java/org/andresen/lab/lesson5/Fruit.java" beforeDir="false" afterPath="$PROJECT_DIR$/java.lessons/src/main/java/org/andersen/lab/lesson5/Fruit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java.lessons/src/main/java/org/andresen/lab/lesson5/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/java.lessons/src/main/java/org/andersen/lab/lesson5/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java.lessons/src/main/java/org/andresen/lab/lesson5/Orange.java" beforeDir="false" afterPath="$PROJECT_DIR$/java.lessons/src/main/java/org/andersen/lab/lesson5/Orange.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java.lessons/src/main/java/org/andresen/lab/lesson6/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/java.lessons/src/main/java/lesson6/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java.lessons/src/main/java/org/andresen/lab/lesson6/MyArrayDataException.java" beforeDir="false" afterPath="$PROJECT_DIR$/java.lessons/src/main/java/lesson6/MyArrayDataException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java.lessons/src/main/java/org/andresen/lab/lesson6/MyArrayException.java" beforeDir="false" afterPath="$PROJECT_DIR$/java.lessons/src/main/java/lesson6/MyArrayException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java.lessons/src/main/java/org/andresen/lab/lesson6/MyArraySizeException.java" beforeDir="false" afterPath="$PROJECT_DIR$/java.lessons/src/main/java/lesson6/MyArraySizeException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java.lessons/src/test/java/org/andresen/lab/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/java.lessons/src/test/java/org/andersen/lab/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java.lessons/target/classes/org/andresen/lab/lesson1/HomeWorkApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java.lessons/target/classes/org/andresen/lab/lesson2/Task1SumBetween.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java.lessons/target/classes/org/andresen/lab/lesson2/Task2NumberPositiveOrNegative.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java.lessons/target/classes/org/andresen/lab/lesson2/Task3NumberPositiveOrNegativeBoolean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java.lessons/target/classes/org/andresen/lab/lesson2/Task4LineMultiplyNumber.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java.lessons/target/classes/org/andresen/lab/lesson2/Task4StarLeapYear.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java.lessons/target/classes/org/andresen/lab/lesson2/Task5To8ArraysManipulations.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java.lessons/target/classes/org/andresen/lab/lesson2/Task9LengthAndValue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java.lessons/target/classes/org/andresen/lab/lesson2/Task9StarArrayDisplacement.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java.lessons/target/classes/org/andresen/lab/lesson3/Employee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java.lessons/target/classes/org/andresen/lab/lesson3/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java.lessons/target/classes/org/andresen/lab/lesson4/food/Cat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java.lessons/target/classes/org/andresen/lab/lesson4/food/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java.lessons/target/classes/org/andresen/lab/lesson4/food/Plate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java.lessons/target/classes/org/andresen/lab/lesson4/park/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java.lessons/target/classes/org/andresen/lab/lesson4/park/Park$Attraction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java.lessons/target/classes/org/andresen/lab/lesson4/park/Park.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java.lessons/target/classes/org/andresen/lab/lesson4/payment/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java.lessons/target/classes/org/andresen/lab/lesson4/payment/Payment$Product.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java.lessons/target/classes/org/andresen/lab/lesson4/payment/Payment.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java.lessons/target/classes/org/andresen/lab/lesson4/race/Animal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java.lessons/target/classes/org/andresen/lab/lesson4/race/Cat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java.lessons/target/classes/org/andresen/lab/lesson4/race/Dog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java.lessons/target/classes/org/andresen/lab/lesson4/race/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java.lessons/target/classes/org/andresen/lab/lesson5/Apple.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java.lessons/target/classes/org/andresen/lab/lesson5/Box.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java.lessons/target/classes/org/andresen/lab/lesson5/ElementsSwap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java.lessons/target/classes/org/andresen/lab/lesson5/Fruit.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java.lessons/target/classes/org/andresen/lab/lesson5/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java.lessons/target/classes/org/andresen/lab/lesson5/Orange.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java.lessons/target/classes/org/andresen/lab/lesson6/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java.lessons/target/classes/org/andresen/lab/lesson6/MyArrayDataException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java.lessons/target/classes/org/andresen/lab/lesson6/MyArrayException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java.lessons/target/classes/org/andresen/lab/lesson6/MyArraySizeException.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
