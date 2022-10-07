@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3e0d29c7-5f45-4a0a-8907-5c3fa3e7ccbc" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/java.lessons/src/main/java/lesson6/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/java.lessons/src/main/java/org/andersen/lab/lesson6/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java.lessons/src/main/java/lesson6/MyArrayDataException.java" beforeDir="false" afterPath="$PROJECT_DIR$/java.lessons/src/main/java/org/andersen/lab/lesson6/MyArrayDataException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java.lessons/src/main/java/lesson6/MyArrayException.java" beforeDir="false" afterPath="$PROJECT_DIR$/java.lessons/src/main/java/org/andersen/lab/lesson6/MyArrayException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java.lessons/src/main/java/lesson6/MyArraySizeException.java" beforeDir="false" afterPath="$PROJECT_DIR$/java.lessons/src/main/java/org/andersen/lab/lesson6/MyArraySizeException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java.lessons/src/main/java/org/andersen/lab/lesson8/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java.lessons/src/main/java/org/andersen/lab/lesson8/Phonebook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java.lessons/src/main/java/org/andersen/lab/lesson8/Words.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java.lessons/target/classes/org/andersen/lab/lesson6/MyArrayException.class" beforeDir="false" afterPath="$PROJECT_DIR$/java.lessons/target/classes/org/andersen/lab/lesson6/MyArrayException.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
