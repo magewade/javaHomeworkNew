@@ -5,11 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3e0d29c7-5f45-4a0a-8907-5c3fa3e7ccbc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/java.lessons/src/main/java/org/andersen/lab/lesson8/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java.lessons/src/main/java/org/andersen/lab/lesson8/Phonebook.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java.lessons/src/main/java/org/andersen/lab/lesson8/Words.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java.lessons/src/main/java/org/andersen/lab/lesson11/order/CartPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java.lessons/src/main/java/org/andersen/lab/lesson11/order/ConfProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java.lessons/src/main/java/org/andersen/lab/lesson11/order/MainPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java.lessons/src/main/java/org/andersen/lab/lesson11/order/OrderTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java.lessons/src/main/java/org/andersen/lab/lesson11/registration/ConfProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java.lessons/src/main/java/org/andersen/lab/lesson11/registration/RegistrationPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java.lessons/src/main/java/org/andersen/lab/lesson11/registration/RegistrationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java.lessons/src/test/resources/conf.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java.lessons/target/classes/org/andersen/lab/lesson6/MyArrayException.class" beforeDir="false" afterPath="$PROJECT_DIR$/java.lessons/target/classes/org/andersen/lab/lesson6/MyArrayException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java.lessons/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/java.lessons/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java.lessons/src/main/java/org/andersen/lab/lesson3/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/java.lessons/src/main/java/org/andersen/lab/lesson3/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java.lessons/src/main/java/org/andersen/lab/lesson4/payment/Payment.java" beforeDir="false" afterPath="$PROJECT_DIR$/java.lessons/src/main/java/org/andersen/lab/lesson4/payment/Payment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java.lessons/target/classes/org/andersen/lab/lesson3/Employee.class" beforeDir="false" afterPath="$PROJECT_DIR$/java.lessons/target/classes/org/andersen/lab/lesson3/Employee.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java.lessons/target/classes/org/andersen/lab/lesson4/payment/Payment$Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/java.lessons/target/classes/org/andersen/lab/lesson4/payment/Payment$Product.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java.lessons/target/classes/org/andersen/lab/lesson8/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/java.lessons/target/classes/org/andersen/lab/lesson8/Main.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,10 +56,11 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "com.intellij.openapi.externalSystem.service.settings.ExternalSystemGroupConfigurable": "ALL",
     "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "D:/Java/JavaRush/JavaRushTasks",
+    "last_opened_file_path": "D:/Andersen AQA/javaHomeworkNew",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
+    "run.code.analysis.last.selected.profile": "pProject Default",
     "settings.editor.selected.configurable": "build.tools"
   }
 }]]></component>
@@ -60,9 +71,67 @@
       <recent name="D:\Andersen AQA\javaHomeworkNew\java.lessons\src\main\java\org\andresen\lab\lesson1" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Andersen AQA\javaHomeworkNew\java.lessons\src\test" />
       <recent name="D:\Andersen AQA\javaHomeworkNew\.idea" />
       <recent name="D:\Andersen AQA\javaHomeworkNew\java.lessons\src\main\java\org\andresen\lab" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.andersen.lab.lesson11.order" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.RegistrationTestSuccess">
+    <configuration name="OrderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java.lessons" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.andersen.lab.lesson11.order.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.andersen.lab.lesson11.order" />
+      <option name="MAIN_CLASS_NAME" value="org.andersen.lab.lesson11.order.OrderTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RegistrationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java.lessons" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.andersen.lab.lesson11.registration.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.andersen.lab.lesson11.Registration" />
+      <option name="MAIN_CLASS_NAME" value="org.andersen.lab.lesson11.registration.RegistrationTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RegistrationTestFailed" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java.lessons" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.andersen.lab.lesson11.registration.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.andersen.lab.lesson11" />
+      <option name="MAIN_CLASS_NAME" value="org.andersen.lab.lesson11.RegistrationTestFailed" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.RegistrationTestSuccess" />
+        <item itemvalue="JUnit.OrderTest" />
+        <item itemvalue="JUnit.RegistrationTestFailed" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -85,5 +154,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/javaHomeworkNew$RegistrationTestSuccess.ic" NAME="RegistrationTestSuccess Coverage Results" MODIFIED="1666450366263" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>org.andersen.lab.lesson11.*</FILTER>
+    </SUITE>
   </component>
 </project>
