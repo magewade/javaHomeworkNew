@@ -45,6 +45,27 @@ public class MainPage {
     @FindBy(xpath = "//*[@id='header_logo']/a/img")
     private WebElement toMainPage;
 
+    @FindBy(xpath = "//*[@id='center_column']/div/div/div[3]/h1")
+    private WebElement namePrintedChiffonDress;
+
+    @FindBy(xpath = "//*[@id='homefeatured']/li[4]/div/div[2]/h5/a")
+    private WebElement printedDressIcon;
+
+    @FindBy(xpath = "//*[@id='homefeatured']/li[4]/div/div[2]/div[2]/a[1]")
+    private WebElement addToCartPrintedDressButton;
+
+    @FindBy(xpath = "//*[@class='login']")
+    private WebElement logInButton;
+
+    @FindBy(xpath = "//*[@id='email']")
+    private WebElement emailAlreadyRegistered;
+
+    @FindBy(xpath = "//*[@id='passwd']")
+    private WebElement passwordAlreadyRegistered;
+
+    @FindBy(xpath = "//*[@id='SubmitLogin']")
+    private WebElement submitLoginButton;
+
 
     public void clickDresses() {
         dressesButton.click();
@@ -84,5 +105,31 @@ public class MainPage {
 
     public void clickToMainPage() {
         toMainPage.click();
+    }
+
+    public String findPrintedChiffonDress() {
+        return namePrintedChiffonDress.getText();
+    }
+
+    public void clickPrintedDress() {
+        Actions builder = new Actions(driver);
+        builder.moveToElement(printedDressIcon).perform();
+        addToCartPrintedDressButton.click();
+    }
+
+    public void clickLogIn() {
+        logInButton.click();
+    }
+
+    public void fillEmailRegistered(String email) {
+        emailAlreadyRegistered.sendKeys(email);
+    }
+
+    public void fillPasswordRegistered(String password) {
+        passwordAlreadyRegistered.sendKeys(password);
+    }
+
+    public void submitLoginClick() {
+        submitLoginButton.click();
     }
 }
