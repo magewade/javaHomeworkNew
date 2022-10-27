@@ -5,12 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3e0d29c7-5f45-4a0a-8907-5c3fa3e7ccbc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/java.lessons/src/main/java/org/andersen/lab/lesson12/Triangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java.lessons/src/main/java/org/andersen/lab/lesson12/TriangleSquareCalculation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java.lessons/src/test/java/org/andersen/lab/lesson12/TriangleTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java.lessons/src/test/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java.lessons/src/main/java/org/andersen/lab/lesson11/order/AccountPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/java.lessons/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/java.lessons/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java.lessons/src/main/java/org/andersen/lab/lesson11/order/CartPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/java.lessons/src/main/java/org/andersen/lab/lesson11/order/CartPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java.lessons/src/main/java/org/andersen/lab/lesson11/order/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/java.lessons/src/main/java/org/andersen/lab/lesson11/order/MainPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java.lessons/src/main/java/org/andersen/lab/lesson11/order/OrderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/java.lessons/src/test/java/org/andersen/lab/lesson11/OrderTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java.lessons/src/main/java/org/andersen/lab/lesson11/registration/RegistrationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/java.lessons/src/test/java/org/andersen/lab/lesson11/RegistrationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java.lessons/src/test/java/org/andersen/lab/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java.lessons/src/test/resources/conf.properties" beforeDir="false" afterPath="$PROJECT_DIR$/java.lessons/src/test/resources/conf.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java.lessons/target/classes/org/andersen/lab/lesson11/order/CartPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/java.lessons/target/classes/org/andersen/lab/lesson11/order/CartPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java.lessons/target/classes/org/andersen/lab/lesson11/order/MainPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/java.lessons/target/classes/org/andersen/lab/lesson11/order/MainPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java.lessons/target/classes/org/andersen/lab/lesson11/order/OrderTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java.lessons/target/classes/org/andersen/lab/lesson11/registration/RegistrationTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java.lessons/target/test-classes/conf.properties" beforeDir="false" afterPath="$PROJECT_DIR$/java.lessons/target/test-classes/conf.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java.lessons/target/test-classes/org/andersen/lab/AppTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java.lessons/target/test-classes/org/andersen/lab/lesson12/TriangleTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/java.lessons/target/test-classes/org/andersen/lab/lesson12/TriangleTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,13 +77,14 @@
       <recent name="D:\Andersen AQA\javaHomeworkNew\java.lessons\src\main\java\org\andresen\lab" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="org.andersen.lab.lesson11" />
       <recent name="org.andersen.lab.lesson12" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="org.andersen.lab.lesson11.order" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.RegistrationTest">
+  <component name="RunManager" selected="TestNG.OrderTest">
     <configuration name="Triangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.andersen.lab.lesson12.Triangle" />
       <module name="java.lessons" />
@@ -87,31 +98,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FunctionTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="java.lessons" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.andersen.lab.lesson12.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.andersen.lab.lesson12" />
-      <option name="MAIN_CLASS_NAME" value="org.andersen.lab.lesson12.FunctionTests" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="OrderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java.lessons" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.andersen.lab.lesson11.order.*" />
+          <option name="PATTERN" value="org.andersen.lab.lesson11.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.andersen.lab.lesson11.order" />
-      <option name="MAIN_CLASS_NAME" value="org.andersen.lab.lesson11.order.OrderTest" />
+      <option name="PACKAGE_NAME" value="org.andersen.lab.lesson11" />
+      <option name="MAIN_CLASS_NAME" value="org.andersen.lab.lesson11.OrderTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -121,12 +117,12 @@
       <module name="java.lessons" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.andersen.lab.lesson11.registration.*" />
+          <option name="PATTERN" value="org.andersen.lab.lesson11.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.andersen.lab.lesson11.Registration" />
-      <option name="MAIN_CLASS_NAME" value="org.andersen.lab.lesson11.registration.RegistrationTest" />
+      <option name="PACKAGE_NAME" value="org.andersen.lab.lesson11" />
+      <option name="MAIN_CLASS_NAME" value="org.andersen.lab.lesson11.RegistrationTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -147,13 +143,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="OrderTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="java.lessons" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.andersen.lab.lesson11.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.andersen.lab.lesson11" />
+      <option name="MAIN_CLASS_NAME" value="org.andersen.lab.lesson11.OrderTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.RegistrationTest" />
+        <item itemvalue="TestNG.OrderTest" />
         <item itemvalue="JUnit.OrderTest" />
+        <item itemvalue="JUnit.RegistrationTest" />
         <item itemvalue="JUnit.TriangleTest" />
         <item itemvalue="Application.Triangle" />
-        <item itemvalue="JUnit.FunctionTests" />
       </list>
     </recent_temporary>
   </component>

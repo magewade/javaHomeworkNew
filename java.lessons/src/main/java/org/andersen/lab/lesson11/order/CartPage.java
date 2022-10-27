@@ -86,6 +86,37 @@ public class CartPage {
     @FindBy(xpath = "//*[@id='center_column']/h1")
     private WebElement orderCompleteMessage;
 
+    @FindBy(xpath = "//*[@id='product_1_1_0_0']/td[2]/p/a")
+    private WebElement fadedTshirtNameInCart;
+
+    @FindBy(xpath = "//*[@id='product_2_7_0_0']/td[2]/p/a")
+    private WebElement blouseNameInCart;
+
+    @FindBy(xpath = "//*[@id='total_product_price_1_1_0']")
+    private WebElement fadedTshirtTotalPrice;
+
+    @FindBy(xpath = "//*[@id='total_product_price_2_7_0']")
+    private WebElement blouseTotalPrice;
+
+    @FindBy(xpath = "//*[@id='total_product']")
+    private WebElement totalProductPrice;
+
+    @FindBy(xpath = "//*[@class='address_firstname address_lastname']")
+    private WebElement addressFirstNameLastName;
+
+    @FindBy(xpath = "//*[@class='address_address1 address_address2']")
+    private WebElement addressAddress;
+
+    @FindBy(xpath = "//*[@class='address_city address_state_name address_postcode']")
+    private WebElement addressCityStateZip;
+
+    @FindBy(xpath = "//*[@class='address_country_name']")
+    private WebElement addressCountry;
+
+    @FindBy(xpath = "//*[@class='address_phone_mobile']")
+    private WebElement addressPhone;
+
+
 
     public void clickToCheckoutCart() {
         toCheckoutCartButton.click();
@@ -178,5 +209,45 @@ public class CartPage {
 
     public String findOrderCompleteMessage() {
         return orderCompleteMessage.getText();
+    }
+
+    public String findFadedTshirtNameInCart() {
+        return fadedTshirtNameInCart.getText();
+    }
+
+    public String findBlouseNameInCart() {
+        return blouseNameInCart.getText();
+    }
+
+    public float getFadedTshirtPrice() {
+        return Float.parseFloat(fadedTshirtTotalPrice.getText().substring(1));
+    }
+
+    public float getBlousePrice() {
+        return Float.parseFloat(blouseTotalPrice.getText().substring(1));
+    }
+
+    public float getTotalProductPrice() {
+        return Float.parseFloat(totalProductPrice.getText().substring(1));
+    }
+
+    public String getAddressName() {
+        return addressFirstNameLastName.getText();
+    }
+
+    public String getAddressAddress() {
+        return addressAddress.getText();
+    }
+
+    public String getAddressCityStateZip() {
+        return addressCityStateZip.getText();
+    }
+
+    public String getAddressCountry() {
+        return addressCountry.getText();
+    }
+
+    public String getAddressPhone() {
+       return addressPhone.getText();
     }
 }

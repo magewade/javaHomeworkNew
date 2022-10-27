@@ -1,5 +1,7 @@
-package org.andersen.lab.lesson11.registration;
+package org.andersen.lab.lesson11;
 
+import org.andersen.lab.lesson11.registration.ConfProperties;
+import org.andersen.lab.lesson11.registration.RegistrationPage;
 import org.junit.AfterClass;
 import org.junit.BeforeClass;
 import org.junit.Test;
