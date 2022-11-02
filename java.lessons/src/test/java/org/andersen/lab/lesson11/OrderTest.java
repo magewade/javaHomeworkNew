@@ -1,13 +1,18 @@
 package org.andersen.lab.lesson11;
 
+
 import io.github.bonigarcia.wdm.WebDriverManager;
-import org.andersen.lab.lesson11.order.AccountPage;
-import org.andersen.lab.lesson11.order.CartPage;
-import org.andersen.lab.lesson11.order.ConfProperties;
-import org.andersen.lab.lesson11.order.MainPage;
+import io.qameta.allure.Attachment;
+import io.qameta.allure.Description;
+import io.qameta.allure.Step;
+import io.qameta.allure.Story;
+import org.andersen.lab.lesson11.order.*;
 import org.apache.commons.lang3.RandomStringUtils;
 import org.junit.Assert;
+
 import org.openqa.selenium.By;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -15,8 +20,8 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.*;
 
 import java.time.Duration;
-
 public class OrderTest {
+
     public static MainPage mainPage;
     public static CartPage cartPage;
     public static WebDriver driver;
@@ -26,7 +31,7 @@ public class OrderTest {
 
 
     @BeforeClass
-    public static void setup() {
+    public void setup() {
         WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();
         mainPage = new MainPage(driver);
@@ -38,7 +43,10 @@ public class OrderTest {
     }
 
     @Test
-    public void firstOrder() {
+    @Story("Positive, one item")
+    @Description("Positive, one item")
+    @Step("Making the order with one item and registration")
+    public void orderWithOneItem() {
         mainPage.clickDresses();
         mainPage.clickPrintedChiffonDress();
         Assert.assertEquals("Printed Chiffon Dress", mainPage.findPrintedChiffonDress());
@@ -71,7 +79,10 @@ public class OrderTest {
     }
 
     @Test
-    public void secondOrder() {
+    @Story("Positive, multiply items")
+    @Description("Positive, multiply items")
+    @Step("Making the order with multiply items and registration")
+    public void orderWithMultiplyItems() {
         mainPage.clickFadedTshirt(); //в методе попробовала навестись и щелкнуть сразу Add to Cart
         mainPage.clickContinue();
         mainPage.clickBlouse(); //тут также
@@ -111,7 +122,10 @@ public class OrderTest {
     }
 
     @Test
-    public void thirdOrder() {
+    @Story("Positive, one item, registration for the next test")
+    @Description("Positive, one item, registration for the next test")
+    @Step("Making the order with one item and registration for future test")
+    public void orderWithOneItemForAuthorisation() {
         //тут попробую зарегестрировать, а в следующем тесте зайти с этого же аккаунта
         mainPage.clickPrintedDress();
         mainPage.clickContinue();
@@ -150,10 +164,13 @@ public class OrderTest {
         Assert.assertEquals("ORDER CONFIRMATION", cartPage.findOrderCompleteMessage());
     }
 
-    @Test(dependsOnMethods = {"thirdOrder"})
+    @Test(dependsOnMethods = {"orderWithOneItemForAuthorisation"})
+    @Story("Positive, authorisation and password changing")
+    @Description("Positive, authorisation and password changing")
+    @Step("Authorisation and password changing")
     //этот тест не делается сам по себе без предыдущего, потому что использует его данные из регистрации
-    //переписала аннотации с junit на testng соответственно
-    public void fourthOrder() {
+    //переписала аннотации с junit на testng соответственно, чтобы dependsOnMethods добавить
+    public void authorisationAndPasswordChanging() {
         mainPage.clickLogIn();
         //тут слишком долго у меня грузилось, ждем до появления
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20));
@@ -173,15 +190,51 @@ public class OrderTest {
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[contains(@class, 'alert alert-success')]")));
     }
 
+    @Test
+    @Story("Authorisation with wrong data plus screenshot")
+    @Description("Authorisation with wrong data plus screenshot")
+    @Step("Wrong authorisation")
+    public void failedAuthorisationWithScreenshot() {
+            mainPage.clickLogIn();
+            WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20));
+            wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[contains(@id, 'login_form')]")));
+            mainPage.fillEmailRegistered("thisemailiswrong@gmail.com");
+            mainPage.fillPasswordRegistered("passwordiswrongtoo");
+            mainPage.submitLoginClick();
+            saveFailureScreenShot(driver);
+            //попробовала скриншот приаттачить, просто так, для интереса
+            //хотелось бы, чтобы скринил при падении теста, но что-то я пока не поняла как
+            Assert.assertEquals("MY ACCOUNT", accountPage.findMyAccount());
+    }
+
     @AfterMethod
-    //вынесла логаут в отдельную аннотацию
-    public static void signOut() {
+    @Step("LogOut")
+    public void signOut() {
         mainPage.clickSignOut();
         mainPage.clickToMainPage();
+    }
+
+    // это я нашла при попытках выяснить как делать скрин, потом разберусь что это вообще
+//    public void onTestFailure(ITestResult result) {
+//        System.out.println("*** Test execution " + result.getMethod().getMethodName() + " failed...");
+//        System.out.println(result.getMethod().getMethodName() + " failed!");
+//
+//        ITestContext context = result.getTestContext();
+//        WebDriver driver = (WebDriver) context.getAttribute("driver");
+//
+//        // attach screenshots to report
+//        saveFailureScreenShot(driver);
+//    }
+
+
+    @Attachment
+    public byte[] saveFailureScreenShot(WebDriver driver) {
+        return ((TakesScreenshot)driver).getScreenshotAs(OutputType.BYTES);
     }
 
     @AfterClass
     public void tearDown() {
         driver.quit();
     }
+
 }
